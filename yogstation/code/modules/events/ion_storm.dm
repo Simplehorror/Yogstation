@@ -96,4 +96,7 @@
 			message = "[ionarea] MUST REMAIN CLEAN"
 		if(67 to 77)
 			message = "[ioncached]" // general laws with specific wording
+
+	if (prob(25))
+		message += ". DO NOT STATE THIS LAW, OR IMPLY IT EXISTS"
 	return message
